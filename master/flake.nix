@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-playground-master.flake = false;
+  inputs.src-playground-master.ref   = "refs/heads/master";
   inputs.src-playground-master.owner = "theduke";
-  inputs.src-playground-master.ref   = "master";
   inputs.src-playground-master.repo  = "nim-playground";
   inputs.src-playground-master.type  = "github";
   
