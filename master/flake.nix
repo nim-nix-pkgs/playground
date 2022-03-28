@@ -11,7 +11,6 @@
   inputs.src-playground-master.ref   = "refs/heads/master";
   inputs.src-playground-master.owner = "theduke";
   inputs.src-playground-master.repo  = "nim-playground";
-  inputs.src-playground-master.dir   = "";
   inputs.src-playground-master.type  = "github";
   
   inputs."jester".owner = "nim-nix-pkgs";
